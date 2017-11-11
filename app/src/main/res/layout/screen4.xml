@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="105dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="103dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="232dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="234dp"
+        android:layout_height="38dp"
+        android:text="Thanks to your company's matching programme your total donation is"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="36dp"
+        android:layout_height="21dp"
+        android:text="£40"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a donation?"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="145dp"
+        android:layout_height="84dp"
+        android:text="Expenses Account £137"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="95dp" />
+</android.support.constraint.ConstraintLayout>
